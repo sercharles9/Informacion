@@ -1,0 +1,12 @@
+PASOS A SEGUIR PAR ACREAR UNA APLICACION PHP CORRECTAMENTE
+**********************************************************
+**********************************************************
+**********************************************************
+1- Crear diagrama entidades y modelos /docs
+
+2- Crear sus respectivos models y los archivos de Migracion correspondientes en /Models    - php artisan make:model [ModelName] -m 
+  2.1- Tambien se puede crear por separado, primero -  php artisan make:model [ModelName]  y despues la migracion.  php artisan make:migration [migration name]
+
+3- 
+
+ 
