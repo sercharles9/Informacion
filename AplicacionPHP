@@ -7,6 +7,8 @@ PASOS A SEGUIR PAR ACREAR UNA APLICACION PHP CORRECTAMENTE
 2- Crear sus respectivos models y los archivos de Migracion correspondientes en /Models    - php artisan make:model [ModelName] -m 
   2.1- Tambien se puede crear por separado, primero -  php artisan make:model [ModelName]  y despues la migracion.  php artisan make:migration [migration name]
 
-3- 
+3- Se añadira una nueva ruta con un endpoint para recibir datos 
+4- i se va a trabajar con recibimiento de datos o formularios grandes se recomienda Crear validador Form Request -  php artisan make:request - al que se añadiran reglas validatorias para  filtrar las peticiones
+5- secrearaun controlador ya con los metodos correspondientes y se asociaran el objeto REQUEST 
 
  
